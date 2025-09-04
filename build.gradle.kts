@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.8.10"
+    kotlin("jvm") version "2.2.10"
     application
 }
 
@@ -12,8 +12,8 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    testImplementation("org.junit.jupiter:junit-jupiter-params:5.6.3") // TODO version
-    testImplementation("org.assertj:assertj-core:3.24.2") // TODO extract version
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.13.4") // TODO version
+    testImplementation("org.assertj:assertj-core:3.27.4") // TODO extract version
 }
 
 tasks.test {
