@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.3.10" // pinned, see .github/dependabot.yml
+    kotlin("jvm") version "2.3.20" // pinned, see .github/dependabot.yml
     application
 }
 
