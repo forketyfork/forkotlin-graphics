@@ -11,7 +11,7 @@ updates:
     ignore:
       # CodeQL does not support Kotlin >= 2.3.20 yet (KotlinVersionTooRecentError).
       # Remove this ignore rule once CodeQL releases support for 2.3.20.
-      - dependency-name: "org.jetbrains.kotlin.jvm"
+      - dependency-name: "jvm"
         versions: [">= 2.3.20"]
 
   - package-ecosystem: "github-actions"
