@@ -12,7 +12,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    testImplementation("org.junit.jupiter:junit-jupiter-params:6.0.3") // TODO version
+    testImplementation("org.junit.jupiter:junit-jupiter-params:6.1.0") // TODO version
     testImplementation("org.assertj:assertj-core:3.27.7") // TODO extract version
 }
 
